@@ -17,28 +17,29 @@ L'objectif de cette formation est de guider les participants depuis les fondemen
 
 ---
 
-## 🎯 Programme de la Formation
+## 🎯 Programme de la Formation (4 Séances, 4 Défis Relevés)
 
-La formation est organisée en trois séances complémentaires :
+La formation s'est articulée autour de 4 modules intensifs alliant rigueur théorique et pratique logicielle :
 
-### 🔹 Séance 1 : Fondements Théoriques & Aérodynamique Éolienne
-* Importance de l'énergie éolienne dans le mix énergétique marocain et feuille de route de l'AMEE.
+### ⚡ Séance 1 — Les Fondamentaux Théoriques
 * Origine du vent, gradients de pression, régimes de brises et lecture des diagrammes isobares.
-* Turbulence atmosphérique et cisaillement vertical du vent (loi de puissance / profil logarithmique).
-* Couplage aéro-mécanique et électrotechnique d'une éolienne moderne (pales, multiplicateur, génératrice, transformateur).
-* Démonstration rigoureuse de la **Limite théorique de Betz ($16/27 \approx 59,3\%$)** via les équations de Bernoulli et de conservation de la quantité de mouvement.
+* Turbulence atmosphérique et cisaillement vertical du vent (profils de rugosité et vitesse selon la hauteur).
+* Principes fondamentaux de conversion énergétique et démonstration rigoureuse de la **Limite de Betz ($16/27 \approx 59,3\%$)** par conservation de la quantité de mouvement et théorèmes de Bernoulli.
 
-### 🔹 Séance 2 : Découverte du Laboratoire NREL & Prise en Main de SAM
-* Rôle et méthodologies du National Renewable Energy Laboratory (NREL).
-* Présentation de l'environnement et des modules de simulation de **System Advisor Model (SAM)**.
-* Paramétrage des courbes de puissance de turbines et modèles de sillage (*wake effect*).
+### ⚡ Séance 2 — L'Art de la Donnée Météorologique
+* Extraction et traitement des séries temporelles horaires depuis la plateforme européenne **PVGIS**.
+* Évaluation du potentiel éolien local et méthodes d'analyse avancées (TMY, lois de distribution de Weibull).
+* Conversion et mise en forme rigoureuse des données météo pour le format éolien de SAM (`.csv` / `.srw`).
 
-### 🔹 Séance 3 : Étude de Cas Pratique & Simulation Complète
-* Extraction et traitement des séries temporelles météo depuis la plateforme européenne **PVGIS**.
-* Création et mise en forme des fichiers de vent spécifiques à SAM (`.csv` / `.srw`).
-* Configuration de la disposition géométrique du parc éolien (*Turbine Layout*).
-* Modélisation détaillée des pertes (aérodynamiques, électriques, disponibilité, environnementales).
-* Simulation, interprétation des graphiques de productible annuel et analyse économique.
+### ⚡ Séance 3 — De la Théorie à la Pratique
+* Architecture et fonctionnement opérationnel d'une éolienne moderne (aérodynamique des pales, multiplicateur, génératrices asynchrones/synchrones, régulation pitch/stall).
+* Présentation du **National Renewable Energy Laboratory (NREL)** et familiarisation avec l'interface de **System Advisor Model (SAM)**.
+* Paramétrage des courbes de puissance de turbines et modélisation des sillages (*wake effects*).
+
+### ⚡ Séance 4 — Le Mini Projet : Passage à l'Action
+* Conception et calepinage complet d'un parc éolien (*Turbine Layout*).
+* Modélisation systémique des pertes (aérodynamiques, électriques, disponibilité, environnementales).
+* Simulation globale, analyse de productible annuel et étude technico-économique complète (LCOE, flux de trésorerie).
 
 ---
 
