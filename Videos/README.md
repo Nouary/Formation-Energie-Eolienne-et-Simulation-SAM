@@ -29,6 +29,6 @@ Les vidéos explicatives de la formation sont hébergées sur Google Drive en ha
 
 > [!IMPORTANT]
 > ### ⏱️ Note essentielle sur la validation et le dépannage (Vidéo 2) :
-> * **Validation réussie à 24:10 :** À la minute **24:10** de la vidéo `prepare_the_data_to_use.mp4`, les données préparées sont importées avec succès dans SAM et la simulation s'exécute **sans aucune erreur**.
+> * **Validation réussie à 24:10 :** À la minute **24:10** de la vidéo `prepare_the_data_to_use.mp4`, les données préparées sont importées avec succès dans SAM et on a passé a l'etape suivante **sans aucune erreur**.
 > * **Comportement attendu :** Si votre jeu de données s'importe et fonctionne du premier coup comme à 24:10, votre fichier est parfaitement configuré et vous pouvez poursuivre directement votre simulation !
 > * **Cas d'erreurs (après 24:10) :** Tout ce qui est présenté **après 24:10** correspond à des tests volontaires d'erreurs courantes . Cette partie a été conçue pour vous aider à diagnostiquer et corriger les causes fréquentes de blocage si vous rencontrez un message d'erreur lors de vos manipulations.
